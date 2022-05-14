@@ -20,7 +20,7 @@ realButtons.forEach((button) => {
 signs.forEach((sign) => {
    sign.addEventListener('click', () => {
        let regex =/\d$/; 
-        //if digit is at the end of the string we can enter press sign
+        //if digit is at the end of the string we can enter a sign
        if(regex.test(firstPlan.innerHTML)) {
         firstPlan.innerHTML = firstPlan.innerHTML + sign.innerHTML;
        }
