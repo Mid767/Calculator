@@ -1,0 +1,95 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .calculator {
+  background-color: #f0f0f0;
+  height: 290px;
+  width: 215px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 5px 2px gray;
+          box-shadow: 0 0 5px 2px gray;
+}
+
+body .calculator .button {
+  width: 50px;
+  height: 25px;
+  margin: 5px 4px;
+  background-color: white;
+  cursor: pointer;
+  text-align: center;
+  -webkit-box-shadow: 0 0 3px 0 gray;
+          box-shadow: 0 0 3px 0 gray;
+  padding-top: 5px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border-radius: 3px;
+}
+
+body .calculator .button:active {
+  -webkit-box-shadow: 0 0 4px 0 gray;
+          box-shadow: 0 0 4px 0 gray;
+}
+
+body .calculator .calculator-screen {
+  width: 100%;
+  height: 80px;
+  background: -webkit-gradient(linear, left top, right top, from(#b6b6b6), to(black));
+  background: linear-gradient(to right, #b6b6b6, black);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #3eea00;
+  margin-bottom: 5px;
+  text-align: right;
+  font-size: 20px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .calculator .calculator-screen .calculator-screen-toppart {
+  width: 95%;
+  height: 55px;
+  padding-top: 10px;
+  font-size: 20px;
+  color: rgba(62, 234, 0, 0.64);
+}
+
+body .calculator .calculator-screen .calculator-screen-bottompart {
+  height: 100%;
+  width: 95%;
+}
+
+body .calculator .calculator-firstpart, body .calculator .calculator-secondpart, body .calculator .calculator-thirdpart, body .calculator .calculator-fourthpart, body .calculator .calculator-fifthpart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+body .calculator #buttonEquals {
+  width: 85px;
+  margin-left: 10px;
+}
+/*# sourceMappingURL=style.css.map */
